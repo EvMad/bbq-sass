@@ -1,3 +1,5 @@
+
+//temporary - change font and colors
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 // add more colors here
@@ -13,6 +15,11 @@ body {
     font: 100% $font-stack;
     color: $primary-color;
     font-weight: map-get($font-weights, bold);
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
 }
 
 @mixin theme($theme: Brown) {
