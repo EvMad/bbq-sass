@@ -1,6 +1,9 @@
 @import './resets.scss';
+@import './variables.scss';
 
-
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
 
 body {
     font: 100% $font-stack;
@@ -11,6 +14,7 @@ body {
 .main {
     width: 80%;
     margin: 0 auto;
+    font-weight: weight(regular);
 }
 
 p {
