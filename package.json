@@ -1,7 +1,8 @@
 {
     "name": "bbqsass",
     "scripts": {
-        "sass": "node-sass -w sass/ -o css/"
+        "sass": "node-sass -w sass/ -o css/",
+        "compile-styles": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 styles.scss css/output.css"
     },
     "devDependencies": {
         "clean-css-cli": "^5.4.2",
