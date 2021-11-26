@@ -5,6 +5,10 @@
     @return map-get($font-weights, $weight-name);
 }
 
+* {
+    background-color: brown;
+}
+
 body {
     font: 100% $font-stack;
     color: $primary-color;
