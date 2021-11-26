@@ -26,6 +26,13 @@ body {
   flex-wrap: wrap;
   align-content: center;
   max-width: 70%;
+  min-height: 50%;
+}
+
+.hero {
+  width: 90%;
+  height: 50%;
+  position: relative;
 }
 
 .row {
