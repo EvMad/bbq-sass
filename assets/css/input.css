@@ -8,7 +8,12 @@
   background-color: brown;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  min-height: 100vh;
   font: 100% Helvetica, sans-serif;
   color: #333;
   font-weight: 900;

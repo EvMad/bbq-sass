@@ -9,7 +9,12 @@
     background-color: brown;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    min-height: 100vh;
     font: 100% $font-stack;
     color: $primary-color;
     font-weight: map-get($font-weights, bold);
