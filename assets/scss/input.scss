@@ -23,12 +23,22 @@ body {
     font: 100% $font-stack;
     color: $primary-color;
     font-weight: map-get($font-weights, bold);
-    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
 }
 
 .main {
     height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     // min-height: 90%;
     // width: 80%;
     // margin: 0 auto;
