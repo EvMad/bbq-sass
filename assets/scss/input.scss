@@ -85,4 +85,9 @@ h2 {
     color: #fff;
 }
 
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content
+    }
+}
    
