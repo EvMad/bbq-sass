@@ -36,7 +36,6 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  max-width: 70%;
   min-height: 50%;
 }
 
