@@ -48,9 +48,9 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    align-content: center;
     max-width: 70%;
     min-height: 50%;
 }
