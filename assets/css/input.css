@@ -6,7 +6,9 @@
 
 * {
   box-sizing: border-box;
-  background-color: brown;
+  background-color: #fff;
+  color: #333;
+  border-color: brown;
 }
 
 html {
@@ -56,6 +58,10 @@ body {
   padding-bottom: 15px;
 }
 
+i {
+  color: brown;
+}
+
 .row {
   padding-top: 20px;
   display: flex;
@@ -69,6 +75,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
+  border: 5px;
 }
 
 .card h2 {
