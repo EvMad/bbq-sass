@@ -59,6 +59,11 @@ body {
   justify-content: center;
 }
 
+.card {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .card h2 {
   text-align: center;
 }
