@@ -51,24 +51,25 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    // max-width: 70%;
-    min-height: 50%;
+    
 }
 
 .hero {
     padding-top: 20px;
     width: 90%;
-    height: 50%;
+    min-height: 50vh;
     position: relative;
-    justify-content: center;
+   
 }
 
 .hero-text {
     text-align: center;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     color: #fff;
+}
+
+.hero-text p {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
