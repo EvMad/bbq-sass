@@ -52,6 +52,7 @@ body {
 }
 
 .row {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
