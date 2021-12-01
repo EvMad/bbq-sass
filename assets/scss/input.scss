@@ -5,6 +5,14 @@
     @return map-get($font-weights, $weight-name);
 }
 
+@mixin card {
+
+        max-width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+}
+
 * {
     // box-sizing: border-box;
     background-color: brown;
@@ -80,7 +88,7 @@ body {
 // .card-column {
 //     display: flex;
 //     flex-direction: column;
-//     align-content: space-between;
+//     align-items: space-between;
 // }
 
 .row {
@@ -92,14 +100,15 @@ body {
 }
 
 .card {
-    max-width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    @include card;
 }
 
 .card h2 {
     text-align: center;
+}
+
+.card p {
+    padding-top: 10px;
 }
 
 h2 {

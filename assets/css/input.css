@@ -74,6 +74,10 @@ body {
   text-align: center;
 }
 
+.card p {
+  padding-top: 10px;
+}
+
 h2 {
   font-family: "Russo One", sans-serif;
 }
