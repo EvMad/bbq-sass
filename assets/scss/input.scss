@@ -76,16 +76,25 @@ body {
     $weight: bold;
 }
 
+// .card-column {
+//     display: flex;
+//     flex-direction: column;
+//     align-content: space-between;
+// }
+
 .row {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
+    max-width: 50%;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .card h2 {
