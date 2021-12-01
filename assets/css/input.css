@@ -33,9 +33,9 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
   min-height: 50%;
 }
 
@@ -43,11 +43,11 @@ body {
   width: 90%;
   height: 50%;
   position: relative;
+  justify-content: center;
 }
 
 .hero-text {
   text-align: center;
-  position: relative;
   color: #fff;
 }
 

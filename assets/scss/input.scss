@@ -48,9 +48,9 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: center;
     // max-width: 70%;
     min-height: 50%;
 }
@@ -59,16 +59,17 @@ body {
     width: 90%;
     height: 50%;
     position: relative;
+    justify-content: center;
 }
 
 .hero-text {
     text-align: center;
-    position: relative;
     // top: 50%;
     // left: 50%;
     // transform: translate(-50%, -50%);
     color: #fff;
 }
+
 
 .icons {
     $weight: bold;
