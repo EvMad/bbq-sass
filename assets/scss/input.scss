@@ -20,6 +20,12 @@
     border-color: brown;
 }
 
+@mixin darkTheme {
+    background-color: brown;
+    color: #fff;
+    border-color: $primary-color;
+}
+
 * {
     box-sizing: border-box;
     // background-color: brown;
@@ -59,13 +65,14 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     
 }
 
 .hero {
     padding-top: 20px;
     width: 90%;
-    min-height: 50vh;
+    min-height: 50%;
     position: relative;
     
    
@@ -83,15 +90,8 @@ body {
 
 
 i {
-    
     color: brown;
 }
-
-// .card-column {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: space-between;
-// }
 
 .row {
     padding-top: 20px;

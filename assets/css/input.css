@@ -39,12 +39,13 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .hero {
   padding-top: 20px;
   width: 90%;
-  min-height: 50vh;
+  min-height: 50%;
   position: relative;
 }
 
