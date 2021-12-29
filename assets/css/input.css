@@ -91,6 +91,11 @@ i {
 .card p {
   padding-top: 10px;
 }
+.card p:hover {
+  background-color: brown;
+  color: #fff;
+  border-color: #333;
+}
 
 h2 {
   font-family: "Russo One", sans-serif;

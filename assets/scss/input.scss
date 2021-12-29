@@ -116,6 +116,9 @@ i {
 
 .card p {
     padding-top: 10px;
+    &:hover {
+        @include darkTheme;
+    };
 }
 
 h2 {
