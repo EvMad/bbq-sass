@@ -56,6 +56,16 @@ body {
   justify-content: center;
 }
 
+.hero-image {
+  border-radius: 20%;
+  opacity: 0.9;
+  max-width: 400px;
+}
+.hero-image:hover {
+  opacity: 1;
+  max-width: 450px;
+}
+
 .hero-text {
   text-align: center;
   color: #fff;
