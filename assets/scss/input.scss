@@ -101,8 +101,13 @@ i {
     flex-wrap: wrap;
 }
 
+
+
 .card {
     @include card;
+    &:hover {
+        @include darkTheme;
+    };
 }
 
 .card h2 {
