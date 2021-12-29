@@ -48,6 +48,10 @@ body {
   min-height: 50%;
   position: relative;
 }
+.hero:hover {
+  height: 75vh;
+  width: 75vw;
+}
 
 .hero-text {
   text-align: center;
