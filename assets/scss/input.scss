@@ -26,6 +26,11 @@
     border-color: $primary-color;
 }
 
+@mixin focus {
+    height: 75vh;
+    width: 75vw;
+}
+
 * {
     box-sizing: border-box;
     // background-color: brown;
