@@ -56,13 +56,9 @@
     text-decoration: none;
     font-size: 17px;
 
-    &a {
-        text-decoration: none;
-    }
-
     &:hover {
-        color: complement($white-color);
-        background-color: $secondary-color;
+        color: complement($primary-color);
+        
     }
 
 }
