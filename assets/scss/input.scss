@@ -213,6 +213,12 @@ i {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+
+    @include for-size(phone-only) {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
 }
 
 
