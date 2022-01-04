@@ -34,6 +34,11 @@ body {
   width: 100vw;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -48,6 +53,9 @@ body {
   font-family: "Russo One", sans-serif;
   text-decoration: none;
 }
+.nav-bara {
+  text-decoration: none;
+}
 
 .links {
   float: center;
@@ -56,6 +64,9 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.linksa {
+  text-decoration: none;
 }
 .links:hover {
   color: white;
@@ -68,6 +79,9 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.linksaa {
+  text-decoration: none;
 }
 .linksa:hover {
   color: white;
