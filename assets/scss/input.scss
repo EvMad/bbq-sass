@@ -190,6 +190,11 @@ a {
 .hero-text p {
     padding-top: 15px;
     padding-bottom: 15px;
+
+    @include for-size(phone-only) {
+        max-width: 65ch;
+        
+    }
 }
 
 
