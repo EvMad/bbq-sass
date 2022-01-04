@@ -28,6 +28,11 @@ body {
   right: 0;
   left: 0;
 }
+@media (max-width: 599px) {
+  body {
+    padding: 10px;
+  }
+}
 
 .main {
   height: 100vh;
