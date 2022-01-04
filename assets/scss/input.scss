@@ -21,7 +21,7 @@
 }
 
 @mixin darkTheme {
-    background-color: brown;
+    background-color: $secondary-color;
     color: #fff;
     border-color: $primary-color;
 }
