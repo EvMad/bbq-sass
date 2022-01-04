@@ -165,8 +165,8 @@ i {
   border-radius: 25%;
   display: none;
 }
-.card-img:hover img {
-  display: block !important;
+.card-img:hover {
+  display: flex;
 }
 
 .card p {

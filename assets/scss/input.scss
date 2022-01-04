@@ -40,7 +40,7 @@
 @mixin cardImg {
     max-width: 450px;
     border-radius: 25%;
-    display: none;
+    
 }
 
 @mixin navBar {
@@ -230,11 +230,14 @@ i {
 
 .card-img {
     @include cardImg();
+    display: none;
 
-    &:hover img {
-        display: block !important;
+    &:hover {
+        display: flex;
     }
 }
+
+
 
 .card p {
     padding-top: 10px;
