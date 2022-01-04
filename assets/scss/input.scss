@@ -43,6 +43,17 @@
 }
 
 @mixin navLinks {
+    float: left;
+    color: $white-color;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    &:hover {
+        color: complement($white-color);
+        background-color: $secondary-color;
+    }
 
 }
 
