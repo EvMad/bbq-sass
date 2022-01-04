@@ -168,6 +168,12 @@ i {
 .card-img:hover {
   display: flex;
 }
+@media (max-width: 599px) {
+  .card-img {
+    display: flex;
+    max-width: 300px;
+  }
+}
 
 .card p {
   padding-top: 10px;
