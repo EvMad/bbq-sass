@@ -225,6 +225,12 @@ i {
 
 .card {
     @include card;
+
+    @include for-size(phone-only) {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
 }
 
 .card h2 {

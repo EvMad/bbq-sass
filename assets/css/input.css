@@ -158,6 +158,13 @@ i {
   padding-bottom: 15px;
   border: 5px;
 }
+@media (max-width: 599px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
 
 .card h2 {
   text-align: center;
