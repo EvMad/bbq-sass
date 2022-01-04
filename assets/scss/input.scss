@@ -163,7 +163,7 @@ a {
         @include focus;
     };
     
-   
+  
 }
 
 .hero-image {
@@ -175,6 +175,11 @@ a {
         opacity: 1;
         max-width: 450px;
     };
+
+    @include for-size(phone-only) {
+        max-width: 300px;
+        
+    }
 }
 
 .hero-text {
@@ -231,9 +236,9 @@ h2 {
 }
 
 
-@mixin mobile {
-    @media (max-width: $mobile) {
-        @content;
-    }
-}
+// @mixin mobile {
+//     @media (max-width: $mobile) {
+//         @content;
+//     }
+// }
    

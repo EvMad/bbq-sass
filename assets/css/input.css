@@ -108,6 +108,11 @@ a {
   opacity: 1;
   max-width: 450px;
 }
+@media (max-width: 599px) {
+  .hero-image {
+    max-width: 300px;
+  }
+}
 
 .hero-text {
   text-align: center;
