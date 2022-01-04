@@ -146,8 +146,8 @@ i {
   border-radius: 25%;
   display: none;
 }
-.card-img:hover {
-  display: show;
+.card-img:hover img {
+  display: block !important;
 }
 
 .card p {
