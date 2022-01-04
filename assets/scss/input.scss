@@ -183,7 +183,7 @@ i {
 .card h2 {
     text-align: center;
     &:hover {
-        @include darkTheme;
+        color: complement($color: $primary-color);
     };
 }
 
