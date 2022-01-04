@@ -45,6 +45,8 @@ body {
 .nav-bar {
   background-color: #333;
   overflow: hidden;
+  font-family: "Russo One", sans-serif;
+  text-decoration: none;
 }
 
 .links {

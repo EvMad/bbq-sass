@@ -40,6 +40,8 @@
 @mixin navBar {
     background-color: $primary-color;
     overflow: hidden;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
 }
 
 @mixin navLinks {
