@@ -126,6 +126,10 @@ a {
 @media (max-width: 599px) {
   .hero-text p {
     max-width: 65ch;
+    display: none;
+  }
+  .hero-text p:hover {
+    display: flex;
   }
 }
 

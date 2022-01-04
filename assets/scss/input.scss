@@ -193,6 +193,11 @@ a {
 
     @include for-size(phone-only) {
         max-width: 65ch;
+        display: none;
+
+        &:hover {
+            display: flex;
+        }
         
     }
 }
