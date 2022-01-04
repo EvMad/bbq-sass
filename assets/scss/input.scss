@@ -175,9 +175,6 @@ i {
 
 .card {
     @include card;
-    &:hover {
-        @include darkTheme;
-    };
 }
 
 .card h2 {
@@ -190,7 +187,7 @@ i {
 .card p {
     padding-top: 10px;
     &:hover {
-        @include darkTheme;
+        @include focus();
     };
 }
 

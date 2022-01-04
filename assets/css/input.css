@@ -133,11 +133,6 @@ i {
   padding-bottom: 15px;
   border: 5px;
 }
-.card:hover {
-  background-color: brown;
-  color: #fff;
-  border-color: #333;
-}
 
 .card h2 {
   text-align: center;
@@ -150,9 +145,11 @@ i {
   padding-top: 10px;
 }
 .card p:hover {
-  background-color: brown;
-  color: #fff;
-  border-color: #333;
+  height: 75vh;
+  width: 75vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
