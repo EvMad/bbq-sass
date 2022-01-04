@@ -37,6 +37,12 @@
     border: 5px;
 }
 
+@mixin cardImg {
+    max-width: 450px;
+    border-radius: 25%;
+    display: none;
+}
+
 @mixin navBar {
     background-color: $primary-color;
     overflow: hidden;
@@ -184,11 +190,17 @@ i {
     };
 }
 
+.card-img {
+    @include cardImg();
+
+    &:hover {
+        display: show;
+    }
+}
+
 .card p {
     padding-top: 10px;
-    &:hover {
-        @include focus();
-    };
+    
 }
 
 h2 {
