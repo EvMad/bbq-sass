@@ -186,6 +186,8 @@ i {
 .card p {
   padding-top: 10px;
   font-family: "Russo One", sans-serif;
+  font-weight: 200;
+  text-align: center;
 }
 
 h2 {
