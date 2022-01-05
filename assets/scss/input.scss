@@ -235,6 +235,7 @@ i {
 
 .card h2 {
     text-align: center;
+    font-family: $font-stack;
     &:hover {
         color: complement($color: $primary-color);
     };
@@ -260,6 +261,8 @@ i {
 
 .card p {
     padding-top: 10px;
+    font-family: $font-stack;
+    // font-weight: $font-weights("regular");
     
 }
 

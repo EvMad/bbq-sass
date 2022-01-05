@@ -162,6 +162,7 @@ i {
 
 .card h2 {
   text-align: center;
+  font-family: "Russo One", sans-serif;
 }
 .card h2:hover {
   color: #333333;
@@ -184,6 +185,7 @@ i {
 
 .card p {
   padding-top: 10px;
+  font-family: "Russo One", sans-serif;
 }
 
 h2 {
