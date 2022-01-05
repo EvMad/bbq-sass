@@ -183,9 +183,18 @@ i {
   }
 }
 
+.card-img-lower {
+  max-width: 450px;
+  border-radius: 25%;
+  opacity: 0.9;
+  max-width: 300px;
+}
+.card-img-lower:hover {
+  opacity: 1;
+}
+
 .card p {
   padding-top: 10px;
-  font-family: "Russo One", sans-serif;
   font-weight: 200;
   text-align: center;
 }
