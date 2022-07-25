@@ -51,6 +51,9 @@
 
     &a {
         text-decoration: none;
+        // font-weight: $font-weights(bold);
+        font-weight: 700;
+        font-size: x-large;
     }
 }
 
