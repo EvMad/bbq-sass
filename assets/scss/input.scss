@@ -149,6 +149,7 @@ a {
 
 .nav-bar {
     @include navBar();
+    
 }
 
 .links {
@@ -164,6 +165,7 @@ a {
     width: 90%;
     min-height: 50%;
     position: relative;
+    
 
     &:hover {
         @include focus;
@@ -191,6 +193,7 @@ a {
 .hero-text {
     text-align: center;
     color: $primary-color;
+    border-bottom: 3px solid $primary-color;
 }
 
 .hero-text p {

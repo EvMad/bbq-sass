@@ -119,6 +119,7 @@ a {
 .hero-text {
   text-align: center;
   color: #333;
+  border-bottom: 3px solid #333;
 }
 
 .hero-text p {
