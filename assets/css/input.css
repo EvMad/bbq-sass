@@ -57,11 +57,11 @@ a {
   overflow: hidden;
   font-family: "Russo One", sans-serif;
   text-decoration: none;
+  position: sticky;
+  z-index: 999;
 }
 .nav-bara {
   text-decoration: none;
-  font-weight: 700;
-  font-size: x-large;
 }
 
 .links {
